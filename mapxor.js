@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = ".";
-client.on("message", message => {
+mapxor.on("message", message => {
   if (message.content === ".") {
     if (message.channel.guild) {
       message.guild.channels.forEach(c => {
@@ -25,4 +25,4 @@ client.on("message", message => {
   }
 });
 
-client.login("")
+ mapxor.login("")
